@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Karla', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  background-color: #23252c;
+}
+.App {
+  width: 550px;
+  background-color: #fff;
+  margin: 100px 0;
+  box-shadow: 7px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<< HEADER >>>>>>>>>>>>>>>>>>> */
+
+.Header {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+  height: 65px;
+
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  color: #fff;
+}
+
+.Header__logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.Header__logo-img {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.Header__logo-name {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.Header__title {
+  font-size: 12px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<< FORM >>>>>>>>>>>>>>>>>>> */
+.Meme {
+  padding: 36px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.Meme .Meme__input,
+.Meme .Meme__btn {
+  border: solid 1px #d5d4d8;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+.Meme .Meme__btn {
+  background-color: #672280;
+  width: 100%;
+  color: #fff;
+}
+.Meme .Meme__btn {
+}
+
+.Meme .Meme__input:focus {
+  outline: solid 2px #672280;
+}
+.Meme__container {
+  position: relative;
+}
+.Meme__container-img {
+  max-width: 100%;
+}
+.Meme__container-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  padding: 30px;
+}
+
+.Meme__container-text p {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  /* text-shadow: 2px 2px black; */
+  -webkit-text-stroke: 1px black;
+  
+}
+/* <<<<<<<<<<<<<<<<<<<<<< FORM >>>>>>>>>>>>>>>>>>> */
